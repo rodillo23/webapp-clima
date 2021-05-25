@@ -1,0 +1,18 @@
+{
+  "name": "weather-webapp",
+  "version": "1.0.0",
+  "description": "A web app to show the weather by city name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Rodolfo Figueroa <ficr23@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}

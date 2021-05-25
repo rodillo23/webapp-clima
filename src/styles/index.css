@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1{
+  margin: 0;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.bold span{
+  font-weight: normal;
+  font-size: 18px;
+}
+
+#app{
+  background-color: #0093E9;
+  background-image: linear-gradient(174deg, #0093E9 0%, #80D0C7 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+#container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.weather-now{
+  color: white;
+}
+
+.weather-city{
+  font-size: 50px;
+}
+
+.weather-date{
+  font-size: 20px;
+}
+
+.half{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.weather-container{
+  width: 45%;
+  border-right: 1px solid #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-details .weather-temp{
+  font-size: 100px;
+  margin: 0;
+}
+
+.weather-desc{
+  font-size: 20px;
+}
+
+.weather-container-moreDetails{
+  width: 45%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.up,
+.down{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+

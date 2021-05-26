@@ -14,7 +14,7 @@ const weatherTemplate = async ()=>{
   const sunsetTime = new Date(data.sys.sunset).toLocaleTimeString().split(':')
   sunsetTime.pop()
   const sunset = sunsetTime.join(':')
-  
+  //"http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"
   const view = `
     
     <div class="weather-now">
@@ -24,7 +24,7 @@ const weatherTemplate = async ()=>{
       <div class="half">
         
         <div class="weather-container">
-          <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" width="250"/>
+          <img src="../src/assets/sun.svg" width="250"/>
 
           <div class="weather-details">
             <p class="weather-temp">${Math.floor(temp)}<span>°</span> </p>
